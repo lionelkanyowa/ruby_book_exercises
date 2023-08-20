@@ -1,0 +1,11 @@
+=begin
+What does the following error message tell you?
+
+ArgumentError: wrong number of arguments (1 for 2)
+  from (irb):1:in `calculate_product'
+  from (irb):4
+  from /Users/username/.rvm/rubies/ruby-2.5.3/bin/irb:12:in `<main>'
+
+Answer: When calling a method called calculate_product, there were wrong number of arguments given. 
+Only 1 agugument was given instead of 2.
+=end
